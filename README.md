@@ -34,15 +34,9 @@ python main.py
 anime-etl/
 
 ├── src/
-
 │   ├── extract.py    # API ingestion
-
 │   ├── transform.py  # Pandas cleaning
-
 │   ├── load.py       # DuckDB loader
-
 │   └── query.py      # SQL analytics
-
 ├── main.py           # Pipeline entry point
-
 └── requirements.txt
